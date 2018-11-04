@@ -1,0 +1,215 @@
+
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.italic {
+  font-style: italic;
+}
+
+section {
+  padding: 150px 0;
+}
+
+@media (max-width: 767.98px) {
+  section {
+    padding: 60px 0;
+  }
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #000;
+  z-index: 2;
+  opacity: 0.6;
+}
+
+.heading {
+  margin-bottom: 40px;
+}
+
+.heading:after {
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 1px;
+  margin: 20px 0 20px;
+  background: #555;
+}
+
+.section-inverse {
+  color: #fff;
+  background: #333;
+}
+
+.section-inverse h2,{
+  color: #fff;
+}
+
+.section-inverse .heading:after {
+  background: #fff;
+}
+
+.box {
+  margin-bottom: 30px;
+}
+
+
+.intro {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: #111;
+  min-height: 600px;
+  padding: 0;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+.intro h1, .intro p {
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.intro p {
+  font-size: 1.35rem;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  z-index: 10;
+}
+
+@media (max-width: 767.98px) {
+  .content {
+    position: relative;
+    padding: 80px 0;
+    top: 0;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+
+/*pages*/
+.pages .box {
+  margin-top: 20px;
+}
+
+.pages .icon {
+  font-size: 50px;
+  color: #262626;
+}
+
+
+.pages .box {
+  max-width: 20%;
+  max-height: 100px;
+}
+
+
+/*footer*/
+footer {
+  padding: 20px 0;
+  font-size: 2rem;
+}
+
+.copyright {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #eee;
+  font-style: italic;
+
+}
+
+.copyright p.stamp {
+  text-align: right;
+}
+
+
+
+body {
+  font-family: courier;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+
+
+a:hover, a:focus {
+  color: #0d0d0d;
+  text-decoration: underline;
+}
+
+#text a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h4,
+.h1,
+.h2,
+.h4 {
+  margin-bottom: 0.5rem;
+  font-family: "courier", sans-serif;
+  font-weight: 700;
+  line-height: 1.44;
+  color: inherit;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.navbar-brand {
+    position: relative;
+    background: url("../img/logoImage.png");
+    width: 255px;
+    height: 255px;
+    left: 15px;
+    background-size: contain;
+    margin-right: 10px;
+}
+
+#brand-two {
+    position: relative;
+    background: url("../img/logoImagetwo.png");
+    width: 255px;
+    height: 255px;
+    left: 115px;
+    background-size: contain;
+    margin-right: 10px;
+}
+
+#text p{
+  font-size: 2rem;
+}
+
+.content p {
+  font-size: 2rem;
+}
